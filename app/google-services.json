@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1016851268671",
+    "project_id": "zivotot-e-krug",
+    "storage_bucket": "zivotot-e-krug.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016851268671:android:980f6ec2fe5deaf7a1e48a",
+        "android_client_info": {
+          "package_name": "com.tamara.zivototekrug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016851268671-4g52cd655j384ialtga1mqbvs9068vvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAr7b1xYzlkPTb9vTV2fzZSd9oZxezLAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016851268671-4g52cd655j384ialtga1mqbvs9068vvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
