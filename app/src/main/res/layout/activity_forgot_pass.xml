@@ -46,7 +46,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/reset_pass_btn"
                 />
 
             <Button
@@ -61,7 +61,8 @@
                 android:background="@drawable/input_bg"
                 app:layout_constraintEnd_toEndOf="@id/input_email_forgot"
                 app:layout_constraintStart_toStartOf="@id/input_email_forgot"
-                app:layout_constraintTop_toBottomOf="@id/input_email_forgot" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
 
             <Button
                 android:id="@+id/login_after_forget_btn"

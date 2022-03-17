@@ -144,17 +144,16 @@
                 android:text="Choose date of the activity:"
                 android:textColor="@color/white"/>
 
-            <DatePicker
+            <TextView
                 android:id="@+id/date_picker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:startYear="2021"
-                android:endYear="2050"
-                android:maxDate="31/12/2050"
-                android:minDate="1/12/2021"
+                android:text="dd/mm/yyyy"
                 style="@style/AppTheme"
+                android:textColor="@color/white"
+                android:textSize="20sp"
                 android:calendarTextColor="@color/white"
-                android:outlineSpotShadowColor="@color/white"
+                android:gravity="center"
                 android:datePickerMode="spinner"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
